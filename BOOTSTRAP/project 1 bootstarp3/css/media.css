@@ -1,0 +1,27 @@
+/*************Start Media Query*****************/
+/*For Smart Phone And Tablets*/
+@media(max-width:768px){
+     .navbar-inverse .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sub .form-control {
+        margin: 20px auto;
+    }
+    .navbar-fixed-top
+    .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
+}
+/*For Small Screen*/
+@media (min-width:768px) and (max-width:992px){
+  
+}
+/*For Medium Screen*/
+@media (min-width:992px) and (max-width:1199px){
+   
+}
+/*For Large Screen*/
+@media(min-width:1200px){
+  
+}
