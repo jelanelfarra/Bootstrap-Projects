@@ -1,18 +1,9 @@
 //global $,jQuery,alret
 $(document).ready(function (){
-	    // Nice Scroll 
-    $("html").niceScroll({
-        cursorcolor:"#E41B17",
-        cursorwidth:"15px",
-        background:"rgba(20,20,20,0.2)",
-        cursorborder:"1px solid #E41B17",
-        cursorborderradius:0
-      });
-      $("#boxscroll").niceScroll({horizrailenabled:false});
-	  // End Nice Scroll
+
 	
     $('.carousel').carousel({
-        interval:6000
+        interval:2000
     });
 	//  Cashing the Scrol Top Element
 
@@ -33,7 +24,7 @@ $(document).ready(function (){
 $(window).load(function (){
 
 	// loading elements
-	$('.loading-overlay .spinner').fadeOut(2000,function (){
+	$('.loading-overlay .sk-folding-cube').fadeOut(2000,function (){
 			//show scroll
 	$('body').css('overflow','auto')
 		$(this).parent().fadeOut(2000,function (){

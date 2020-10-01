@@ -1,0 +1,81 @@
+/* ****************Header************************ */
+.Ar .navbar-brand .brand{position: relative;top: 15px;left: 10px;font-family: 'Kufam', cursive;}
+.Ar .navbar-inverse .navbar-nav > li > a{font-family: 'Almarai', sans-serif!important;font-size: 16px;}
+.Ar h1.header1{font-family: 'Raleway', sans-serif;}
+.Ar header h1,.Ar header p,.Ar .dropdown-menu > li > a
+{font-family: 'Almarai', sans-serif;}
+.Ar header h1{font-size: 33px;}
+.Ar header .btn-danger{margin-top: 30px;font-size: 16px;}
+.Ar header p{font-size: 30px;}
+.Ar .btn-danger{font-size: 14px;font-family: 'Almarai', sans-serif;}
+.Ar header.index svg, .Ar header.about-head svg {margin-bottom: -80px;}
+.Ar header.index img {width: 150%;margin-right: -70px;margin-top: -120px;}
+/* ****************About Section************************ */
+.Ar .about h1, .Ar .about p{font-family: 'Almarai', sans-serif;}
+.Ar .about h1{font-size: 33px;}
+.Ar .about h1.head-after::after,.Ar .services h1.head-after::after {width: 60px;}
+.Ar .about p{font-size: 17px;line-height: 1.6;}
+.Ar .about img{margin-top: -50px;}
+.Ar .about .btn-danger{margin-right: 165px;}
+/* ****************Services & Contact Section************************ */
+.Ar .services, .contact, .Ar .about-us h1,.Ar .about-us p{font-family: 'Almarai', sans-serif;}
+.Ar .services h1,.Ar .available h2{font-family: 'Almarai', sans-serif;font-size: 33px;}
+.Ar .contact h2,.Ar .trans h1,.Ar .web h1,.Ar .contact-us h2{font-family: 'Almarai', sans-serif;font-size: 30px;}
+.Ar .contact .input-lg,.Ar .contact-us .input-lg,.Ar .order .input-lg{font-size: 16px;font-family: 'Almarai', sans-serif;}
+.Ar .services h2{font-family: 'Almarai', sans-serif;font-size: 22px;}
+.Ar .services p.par1{font-size: 20px;}
+.Ar .services p.par{font-size: 16px;}
+.Ar .services .row1 .icon i,.Ar .services .row2 .icon i{left:5%;top: 2%;}
+/* ****************Footer************************ */
+.Ar footer {font-family: 'Almarai', sans-serif;}
+.Ar footer ul li a ,.Ar footer .global i,.Ar footer .global span,
+.Ar footer p,.Ar footer .cont span{font-size: 15px;}
+.Ar span.transweb{font-family: 'Raleway', sans-serif;font-weight: bold;}
+/* ****************About Us Page************************ */
+.Ar .about-us p,.Ar .trans p,.Ar .lang-ul li{font-size: 17px;line-height: 1.6}
+.Ar .about-us h1{font-size: 33px;}
+.Ar .choose h2{font-family: 'Almarai', sans-serif;font-size: 28px;}
+.Ar .choose p.par1,.Ar .choose p.par2{font-size:17px;font-family: 'Almarai', sans-serif;border-bottom-left-radius: 25%;border-bottom-right-radius: 0;}
+.Ar .stats p{font-family: 'Almarai', sans-serif;}
+/* ****************Lang Page************************ */
+.Ar header.lang-head{font-family: 'Almarai', sans-serif;padding-top: 80px;}
+.Ar .trans,.Ar .available,.Ar .web,.Ar .join{font-family: 'Almarai', sans-serif;}
+.Ar .lang-ul{padding-right: 77px;}
+.Ar .lang-ul li{margin-bottom: 10px;}
+/* ****************Web Page & Join************************ */
+.Ar .web h3,.Ar .web p,.Ar .join p{font-size: 17px;line-height: 1.6;font-family: 'Almarai', sans-serif;}
+.Ar .web img.img2{margin-left: 30px;}
+.Ar .contact-us{font-family: 'Almarai', sans-serif;}
+.Ar .contact .btn-danger,.Ar .contact-us .btn-danger{padding: 12px 257px;}
+.Ar .contact-us .cont-left{padding-right: 80px;}
+.Ar .cont-left .lets{font-family: 'Almarai', sans-serif;font-size: 25px;}
+.Ar .contact-us span.icon {top: 80px;right: -87px;}
+/* ****************Order************************ */
+.Ar .order form{padding-right: 65px;margin-left: -125px;}
+.Ar .order .btn-danger{margin-right: 160px;}
+.Ar .order h1,.Ar .order p{margin-right: 50px;}
+/*************Start Media Query*****************/
+@media(max-width:992px){
+.Ar .navbar-inverse .navbar-nav > li > a{margin-right: -25px;margin-left: 20px;}
+.Ar .navbar-brand .brand{top:-48px;left: 33px;}
+.Ar header.index svg,.Ar header.about-head svg{margin-bottom: 0;}
+.Ar .about .btn-danger {margin-right: 50px;}
+.Ar .about img{margin-bottom: 30px;}
+.Ar .contact .btn-danger, .Ar .contact-us .btn-danger{padding: 12px 150px;}
+.Ar header.lang-head img{margin: -25px;width: 115%;}
+.Ar header.web-head img{margin-top: -35px;margin-right: -35px;}
+.Ar .web img.img2{margin-right: -17px;}
+.Ar .contact-us h2{margin-bottom: -50px;}
+.Ar .contact-us .cont-left{margin-right: 20px;margin-top: -35px;}
+.Ar .order form{padding-right: 57px;margin-left: -75px;}
+.Ar .order .btn-danger{margin-right: 93px;}
+.Ar .order h1, .Ar .order p{margin-right: 0;}
+}
+
+@media(width:768px){
+.Ar header.about-head .img2{width: 55%; margin-right: 100px;}
+.Ar .lang-ul{margin-right: -50px;}
+.Ar .order form{padding-left: 0px;margin-right: 10px;}
+.Ar .order .form{margin-left: 40px;}
+.Ar .order .btn-danger{padding: 10px 70px;margin-right: 150px;}
+}

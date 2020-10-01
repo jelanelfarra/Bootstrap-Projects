@@ -1,0 +1,32 @@
+/*******Start Default Theme**********/
+/*Active Link*/
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.tool-box .gear-check,
+.double-bounce1, .double-bounce2{
+background-color: #ff4557;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+ .dropdown-menu > .active > a:focus {background-color: #ff4557!important;}
+.navbar-inverse .navbar-brand span,
+.welcome h1 span,
+.testi span,
+.footer h3,
+.copyright span{
+ color:#ff4557;
+}
+.testi .carousel-indicators li,
+.footer .social-list img,
+.tool-box .color-option{
+ border: 3px solid #ff4557;
+}
+.dropdown-menu {
+ border-top:3px solid #ff4557; 
+}
+
+

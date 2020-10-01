@@ -1,0 +1,61 @@
+/*************Start Media Query*****************/
+@media(max-width:992px){
+.logo{width: 20%;margin-top: -66px;margin-left: 5px;}
+.navbar-nav{padding-bottom: 20px;}
+.navbar-inverse .navbar-nav > li > a{padding-bottom: 10px;padding-top: 10px;}
+.navbar-brand .brand{top: -56px;}
+header p{font-size: 30px;}
+header h1{font-size: 36px;}
+header.index svg, header.about-head svg{margin-bottom: 0px;}
+header.web-head svg,header.lang-head svg{margin-top: 0px;}
+header.index img{width: 125%;margin-left: -40px;margin-top: 0;}
+header .btn-danger.one{margin-left: -10px;}
+header.index, header.about-head{padding-bottom: 40px;}
+.about p{padding: 0 10px;}
+.about .btn-danger{margin-left: 84px;}
+.services{padding-left: 10px;padding-right: 10px;}
+.services .row1 .icon i, .services .row2 .icon i {left: 77%;}
+.contact .btn-danger, .contact-us .btn-danger{padding: 12px 100px;}
+.contact img{margin-left: 0;}
+header.about-head .img2{width: 85%;margin-left: 22px;margin-top: 40px;}
+.about{padding-left: 10px;padding-right: 10px;}
+.about-us img{width: 60%;margin-top: -60px;margin-bottom: 18px;}
+header.web-head, header.lang-head{padding-top: 60px;}
+header.lang-head img{margin-top: 0;margin-left: 12px;}
+.trans{padding-left: 10px;padding-right: 10px;}
+.trans img{width:100%}
+.trans img.img2,.about-us img.img2{display: none;}
+.trans .desc{margin-bottom: -130px;}
+.available h2{margin-top: 166px}
+header.web-head img{margin-top: 0;}
+.web img.img2{width: 100%;margin-top: 50px;margin-bottom: -77px;}
+.web img.img3{display: none;}
+.contact-us .cont-right{margin-top: 100px;}
+.contact img{margin-top: 20px;}
+header.join-head .btn-danger.two{margin-top: 20px;}
+header.join-head .btn-danger.one{margin-left: 0px;}
+.order form{padding-left: 35px;}
+.order .btn-danger{margin-left: 68px;}
+header.contact-head, header.join-head, header.order{padding: 80px 20px;}
+.navbar-inverse .navbar-nav > li > a{margin-right: 20px;margin-left: 5px;}
+}
+
+
+@media(width:768px){
+.navbar-inverse .navbar-nav > li > a{padding-bottom: 30px;padding-top: 30px;margin-right: -16px;}
+.navbar-nav{padding-bottom: 0;}
+.logo{width: 11%;margin-top: 0}
+.navbar-brand .brand,.head-after::after{display: none;}
+header.index img {margin-left: -85px;}
+.about .btn-danger{margin-left: 230px;font-size: 20px;}
+footer .col-sm-3{width:35%}
+header.lang-head img {width: 100%;}
+.available .col-sm-6{width: 23%;}
+header.web-head img{width: 100%;margin-left: 0;}
+.web img.img2{width: 85%;margin-right: 60px;}
+.order h1{padding-bottom: 30px;}
+.order form{padding-left: 40px;margin-right: -110px;}
+.order .form{margin-right: 20px;}
+.order .btn-danger{margin-left: 241px;font-size: 20px;}
+
+}

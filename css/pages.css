@@ -1,0 +1,102 @@
+/********section About Us**********/
+.about-us{padding-top: 50px;padding-bottom: 50px;margin-top:-10px;
+  background-color: #3e5b62;font-family: 'Raleway', sans-serif;}
+.about-us h1{padding-bottom: 45px;color: #fff;}
+.about-us .head-after::after{background-color: #ff4557;}
+.about-us img{width: 130%;}
+.about-us img.img2{position: relative; top:300px;}
+.about-us p{color: #3e5b62;font-size: 18px;line-height: 1.5;}
+.about-us .desc{background-color: #fff;padding: 40px;border: 1px solid #fff;border-radius: 15px;box-shadow: 0 0 15px rgba(0,0,0,.3);}
+  /********Start  header buttons **********/
+header .btn-danger.one{color:#fff!important;background-color: #ff4557!important;padding: 10px 25px;font-size: 18px;border:none;}
+header .btn-danger.one:hover{color: #fff !important;background-color: #3f3d55 !important;}
+header .btn-danger.two{color:#fff!important;;background-color: #3f3d55!important;padding: 10px 25px;font-size: 18px;border:none;}
+header .btn-danger.two:hover{color: #fff!important;background-color: #ff4557!important;}
+header.contact-head .one{color:#fff!important;background-color: #ff4557!important;}
+header.contact-head .one:hover{color: #3f3d55 !important;background-color: #fff !important;}
+
+  /********Start Translation**********/
+.trans,.web{padding-top: 50px;padding-bottom: 50px;margin-top:-10px;background: #3e5b62;font-family: 'Raleway', sans-serif;}
+ header.lang-head img{width: 100%;margin-left: -60px;margin-top: -80px;}
+.trans h1,.web h1{padding-bottom: 45px;color: #fff;}
+.trans .head-after::after,.web .head-after::after{background-color: #ff4557;margin: 20px 523px;}
+.trans img{width: 130%;}
+.trans img.img2{position: relative; top:300px;}
+.trans p{color: #3e5b62;font-size: 18px;line-height: 1.5;}
+.trans .desc{background-color: #fff;padding: 40px;border: 1px solid #fff;border-radius: 15px;box-shadow: 0 0 15px rgba(0,0,0,.3);}
+.available h2 {font-size: 35px;margin-bottom: 30px;margin-top: 100px;color: #fff;}
+.lang-ul {margin-top: 30px;padding-left: 77px;}
+.lang-ul li {color: #fff;font-size: 18px;margin-bottom: 5px;list-style: circle;}
+/********Start Web Section**********/
+header.web-head img{width: 120%;margin-top: -100px;margin-left: -30px;}
+.web img.img1{width: 90%;}
+.web img.img2{width:75%;margin-top: -40px;margin-right: 30px;}
+.web img.img3{width: 95%;}
+.web p{margin-top: 30px;color:#fff;font-size: 18px;line-height: 1.5;} 
+.web ul{margin-top:30px;}
+.web li{color:#fff;font-size: 16px;line-height: 1.5;}
+.web h3{color: #fff;}
+.web .row{margin-bottom: 100px;}
+/********Start Join Us Section**********/
+.join{padding-top: 50px;padding-bottom: 50px;margin-top:-10px;background: #fff;font-family: 'Raleway', sans-serif;}
+.join h1{padding-bottom: 45px;color: #ff4557;}
+.join .head-after::after{background-color: #2f2e41;}
+.join p{margin-top: 30px;color:#2f2e41;font-size: 19px;line-height: 1.5;}
+.join img{width: 100%;margin-top: -30px;}
+.join .btn-danger{margin-top:40px;border:none;}
+.join .btn-danger.one{color:#fff;padding: 10px 15px;font-size: 15px;background-color: #2f2e41 !important;}
+.join .btn-danger.one:hover{color: #2f2e41 !important;background-color: #fff !important;border:2px solid #2f2e41;}
+.join .btn-danger.two{padding: 10px 15px;font-weight:bold;font-size: 15px;color:#2f2e41!important;background-color: #fff !important;border:2px solid #2f2e41;}
+.join .btn-danger.two:hover{font-weight:normal;color: #fff!important;background-color: #2f2e41 !important;}
+.join a{margin-left: 20px;} .join a:hover{text-decoration: none;}
+  /****************** Start Choose Us*****************/
+  .choose{padding: 80px 0;}
+  .choose h2{font-size: 32px;color:#3e5b62;font-family: 'Raleway', sans-serif;margin-bottom: 50px;}
+  .choose p.par1{color: #fff;font-family: 'Raleway', sans-serif;margin-top: 35px;background-color: #ff4557;padding: 30px;border-bottom-right-radius: 25%;}
+  .choose p.par2{color: #fff;font-family: 'Raleway', sans-serif;margin-top: 35px;background-color: #3e5b62;padding: 30px;border-bottom-right-radius: 25%;}
+  .choose img{width: 100%;}
+  .choose .head-after::after{background-color: #ff4557;}
+  /****************** Start Statistic*****************/
+  .stats {padding: 60px 0;background-color: #f5f5f5;}
+  .stats .stat-box {margin-bottom: 40px;color: #181818;}
+  .stats .number {display: block;font-size: 40px;font-weight: bold;color: #181818;} 
+  .stats .stats-text {color: #ff4557;font-weight: bold;font-size: 20px;font-family:'Raleway', sans-serif;}
+
+/*************Start Order*******************/	
+.order{padding: 100px 0;}
+.order h1{color:#3f3d56;font-size: 35px;margin-bottom: 35px;}
+.order p{margin-top:0; font-size: 25px;}
+.order p span{color: #ff4557;}
+.order img{width: 100%;}
+.order .input-lg{width:80%;font-size: 17px;border-radius: 0;}
+.order .btn-danger{color: #fff;background-color: #3f3d56!important;border-color: #3f3d56!important;border-radius: 0;padding: 10px 15px;margin-left: 120px;margin-top: 20px;}
+.order .form{background-color:#ff4557;padding: 50px 0;border-radius: 8px;box-shadow: 0 2px 10px rgba(0,0,0,.2);}
+.order form{padding-left: 60px;margin-right: -30px;}
+/********Start join Page**********/
+ header.join-head{ background-image: url(https://www.viacon.in/wp-content/themes/viacon/css/../images/case-study-list-banner.jpg);}
+/********Start contact Page**********/
+ header.contact-head{ background-image: url(https://www.viacon.in/wp-content/themes/viacon/css/../images/case-study-list-banner.jpg);}
+.contact-us .cont-left{padding-left: 80px;margin-top: -72px;font-family: 'Raleway', sans-serif;}
+.contact-us span.icon{position: relative;top: 90px;left: -75px;cursor: pointer;}
+.contact-us .icon i{font-size: 32px;color: #fff;border: 1px solid #ff4557;border-radius:50px;padding: 17px;background-color: #ff4557;box-shadow: 0 1px 5px rgba(0,0,0,.5);}
+.contact-us .icon i:hover{background-color: #3f3d56;border: none;}
+.contact-us h3.lets{font-size: 28px;color: #3f3d56;margin-left: 20px;}	
+.contact-us p.phone{font-size: 20px;color: #3e5b62;cursor: pointer;padding-left: 10px;}
+.contact-us .info{margin-bottom: -40px;}
+.contact-us .info a i{font-size: 25px;margin-left: 15px;}
+.contact-us .face{color: #3f3d56;}
+.contact-us .tw{color: #55bdee;}
+.contact-us .insta{color: #d35400;}
+.contact-us .linked{color: #0f5a9796;}
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
